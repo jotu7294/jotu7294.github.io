@@ -6,13 +6,17 @@ const Experience = () => {
     useEffect(() => {
         setIsVisible(true);
 
-        // Scroll to the section if a hash is present in the URL
-        const hash = window.location.hash;
+        // Get the hash from the URL
+        const hash = window.location.hash.replace('#', ''); // Remove the '#' symbol
+
         if (hash) {
-            const element = document.querySelector(hash);
+            const element = document.getElementById(hash); // Find the element with the matching ID
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
+        } else {
+            // If no hash is present, scroll to the top of the page
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     }, []);
 

@@ -34,10 +34,10 @@ const Home = () => {
                     </p>
                     
                     <div className="flex flex-wrap justify-center gap-4">
-                        <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium transition-all duration-200 shadow-lg shadow-blue-700/30 hover:shadow-blue-600/40" onClick={() => window.location.href = '/projects'}>
+                        <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium transition-all duration-200 shadow-lg shadow-blue-700/30 hover:shadow-blue-600/40" onClick={() => window.location.href = '#/projects'}>
                             View Portfolio
                         </button>
-                        <button className="px-8 py-3 rounded-lg border border-blue-500/30 hover:border-blue-400/60 text-blue-400 hover:text-blue-300 font-medium transition-all duration-200 backdrop-blur-sm" onClick={() => window.location.href = '/contact'}>
+                        <button className="px-8 py-3 rounded-lg border border-blue-500/30 hover:border-blue-400/60 text-blue-400 hover:text-blue-300 font-medium transition-all duration-200 backdrop-blur-sm" onClick={() => window.location.href = '#/contact'}>
                             Contact Me
                         </button>
                     </div>
@@ -68,7 +68,7 @@ const Home = () => {
                             <p className="text-gray-400 mb-6">
                                 Discover my work including Volum (Radio Reimagined) and SphereSix, my award-winning ventures focused on innovation and sustainability.
                             </p>
-                            <a href="/projects" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+                            <a href="#/projects" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                                 View Projects
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -90,7 +90,7 @@ const Home = () => {
                             <p className="text-gray-400 mb-6">
                                 Learn about my professional journey at Coditum/TeachForth, SummerTech, and the University of Colorado Boulder.
                             </p>
-                            <a href="/experience" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+                            <a href="#/experience" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                                 See Experience
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -112,7 +112,7 @@ const Home = () => {
                             <p className="text-gray-400 mb-6">
                                 Explore my technical toolkit including React, TypeScript, Node.js, C++, and design tools like Adobe Suite.
                             </p>
-                            <a href="/experience#skills" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+                            <a href="#/experience#skills" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                                 View Skills
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -128,7 +128,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-indigo-900/20"></div>
                 <div className="relative container mx-auto px-6 text-center">
                     <h2 className="text-2xl md:text-3xl font-bold mb-6">Let's Connect!</h2>
-                    <a href="/contact" className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium transition-all duration-200 shadow-lg shadow-blue-700/30 hover:shadow-blue-600/40">
+                    <a href="#/contact" className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium transition-all duration-200 shadow-lg shadow-blue-700/30 hover:shadow-blue-600/40">
                         Get in Touch
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
