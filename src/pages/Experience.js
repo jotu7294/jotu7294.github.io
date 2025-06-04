@@ -25,7 +25,7 @@ const Experience = () => {
             id: 1,
             title: 'Founding Tutoring Specialist',
             company: 'Coditum / TeachForth',
-            period: 'March 2023 - Present',
+            period: 'November 2018 - Present',
             description: 'Began as an intern, assisting in course development and instructional design, before transitioning into a full teaching role. Delivering personalized 1-on-1 lessons in Java, C++, Python, Blender, and Adobe Creative Suite to students at all levels. Tailoring teaching methods to individual learning styles, fostering a positive and engaging educational experience.',
             skills: ['Java', 'C++', 'Python', 'Blender', 'Adobe Creative Suite', 'Teaching', 'Curriculum Design']
         },
@@ -41,7 +41,7 @@ const Experience = () => {
             id: 3,
             title: 'Assistant to the Dean of Engineering',
             company: 'University of Colorado Boulder',
-            period: 'June 2019 - August 2024',
+            period: 'March 2023 - Present',
             description: 'Managing records and employee data for the College of Engineering. Coordinating communications to ensure team alignment and goal setting. Writing scripts to streamline day to day tasks with Microsoft Automate.',
             skills: ['Data Management', 'Communications', 'Script Writing', 'Microsoft Automate', 'Team Coordination']
         }
