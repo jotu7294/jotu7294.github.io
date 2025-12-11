@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8bdfe2e.css",
-    "main.js": "/static/js/main.ea3e043b.js",
+    "main.css": "/static/css/main.9717150b.css",
+    "main.js": "/static/js/main.18e67fb4.js",
     "static/js/453.534db5b8.chunk.js": "/static/js/453.534db5b8.chunk.js",
     "static/media/spheresix-landing.png": "/static/media/spheresix-landing.968c0b9c40497df08a2c.png",
     "static/media/volum-landing.png": "/static/media/volum-landing.87d146692a9d7a2834dd.png",
-    "static/media/Joey-Tursi-Resume.pdf": "/static/media/Joey-Tursi-Resume.d33f9acf5407ab35afcf.pdf",
+    "static/media/Joey-Tursi-Resume.pdf": "/static/media/Joey-Tursi-Resume.9bbe522b8c5100ab370f.pdf",
     "index.html": "/index.html",
-    "main.e8bdfe2e.css.map": "/static/css/main.e8bdfe2e.css.map",
-    "main.ea3e043b.js.map": "/static/js/main.ea3e043b.js.map",
+    "main.9717150b.css.map": "/static/css/main.9717150b.css.map",
+    "main.18e67fb4.js.map": "/static/js/main.18e67fb4.js.map",
     "453.534db5b8.chunk.js.map": "/static/js/453.534db5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8bdfe2e.css",
-    "static/js/main.ea3e043b.js"
+    "static/css/main.9717150b.css",
+    "static/js/main.18e67fb4.js"
   ]
 }
